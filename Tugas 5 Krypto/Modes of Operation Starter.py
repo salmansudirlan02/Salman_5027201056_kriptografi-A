@@ -1,1 +1,1 @@
-#dekrip dan enkripnya di web saja
+#ke link yg dikasih soal, encrypt flag, hasil encryptnya di didecrypt, taru outputnya di hex encoder. udah
