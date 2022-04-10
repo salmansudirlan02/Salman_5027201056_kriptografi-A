@@ -1,7 +1,7 @@
 import string
 import requests
 
-url = "http://aes.cryptohack.org/ecb_oracle/{}"
+url = "http://aes.cryptohack.org/ecb_oracle/encrypt/{}"
 
 def encrypt(plaintext):
     return requests.get(url.format(plaintext)).json()['ciphertext']
